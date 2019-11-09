@@ -5,7 +5,7 @@
 
 import {inject} from '@loopback/core';
 import {juggler} from '@loopback/repository';
-import * as config from './calculator.datasource.json';
+import config from './calculator.datasource.json';
 
 export class CalculatorDataSource extends juggler.DataSource {
   static dataSourceName = 'calculator';

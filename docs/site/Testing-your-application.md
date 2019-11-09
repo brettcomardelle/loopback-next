@@ -740,7 +740,7 @@ instance:
 
 ```ts
 import {merge} from 'lodash';
-import * as GEO_CODER_CONFIG from '../datasources/geo.datasource.json';
+import GEO_CODER_CONFIG from '../datasources/geo.datasource.json';
 
 function givenGeoService() {
   const config = merge({}, GEO_CODER_CONFIG, {
